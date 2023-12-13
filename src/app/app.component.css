@@ -1,1 +1,33 @@
 
+.sidenav-container {
+    height: 100vh;
+  }
+  
+  .map-container {
+    flex: 1;
+  }
+  .mat-icon-button {
+    color: white; /* Change the color of the icon */
+  }
+  .sidenav-container {
+    height: 100vh;
+  }
+  
+  .nav-header {
+    padding: 10px 15px;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .nav-text {
+    padding: 0 15px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .toolbar-title {
+    flex: 1;
+    text-align: left;
+    margin-left: 10px;
+  }
+  

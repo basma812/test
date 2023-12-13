@@ -1,1 +1,26 @@
-<app-map></app-map>
+<mat-sidenav-container class="sidenav-container">
+    <mat-sidenav #sidenav mode="side" opened="false">
+      <mat-nav-list>
+        <h3 class="nav-header">Map Options</h3>
+        <a mat-list-item href="#">Home</a>
+        <a mat-list-item href="#">Profile</a>
+        <a mat-list-item href="#">Settings</a>
+        <mat-divider></mat-divider>
+        <h3 class="nav-header">Map Info</h3>
+        <p class="nav-text">Explore various locations and roadworks data on our interactive map.</p>
+      </mat-nav-list>
+    </mat-sidenav>
+  
+    <mat-sidenav-content>
+      <mat-toolbar color="primary">
+        <button mat-icon-button (click)="sidenav.toggle()">
+            <mat-icon>menu</mat-icon>
+        </button>
+        <span class="toolbar-title">My Map App</span>
+      </mat-toolbar>
+  
+      <app-map></app-map>
+    </mat-sidenav-content>
+  </mat-sidenav-container>
+  
+  

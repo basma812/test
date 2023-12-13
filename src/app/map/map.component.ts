@@ -3,7 +3,7 @@ import * as L from 'leaflet';
 
 @Component({
   selector: 'app-map',
-  template: '<div id="map" style="width: 100%; height: 2000px;"></div>',
+  template: '<div id="map" style="width: 100%; height: 1600px;"></div>',
   styleUrls: ['./map.component.css']
 })
 export class MapComponent implements OnInit {
